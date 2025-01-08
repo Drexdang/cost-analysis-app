@@ -221,7 +221,7 @@ elif app_mode == "📊 Property & Menu Engineering":
     try:
         link = "https://menu-engineering.streamlit.app"  # Replace with the link you want to redirect to
         st.markdown(f"[Click here to view Menu Engineering]({link})", unsafe_allow_html=True)
-        link = "https://room-hallcosting.streamlit.app"  # Replace with the link you want to redirect to
+        link = "https://cost-hall-room.streamlit.app/"  # Replace with the link you want to redirect to
         st.markdown(f"[Click here to view Room & Halls Costing]({link})", unsafe_allow_html=True)
     except Exception as e:
         st.error(f"Error: {e}")
